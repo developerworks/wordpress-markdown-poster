@@ -1,0 +1,195 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	overflow: hidden;
+}
+
+textarea {
+	
+}
+
+hr { height: 0; display: none;}
+
+#page {
+    font-size: 12px;
+}
+#pageHeader {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0.4em;
+	color: #766;
+	height: 100px;
+}
+
+#pageHeader h1 {
+	
+}
+
+#leftContainer,#rightContainer{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	
+}
+#leftContainer{
+    width: 48%;	
+}
+#rightContainer {
+	width: 51%;
+}
+
+#leftContainer {
+	float: left;
+	margin-right: 10px;
+}
+
+#rightContainer {
+	float: left;
+}
+
+.paneHeader {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	display: block;
+	height: 2em;
+}
+
+.paneHeader * {
+	position: relative;
+}
+
+.paneHeader span {
+	
+}
+
+#paneSetting {
+	margin-left: auto;
+	margin-right: 0.5em;
+	border: 1px solid #999;
+}
+
+.pane {
+	margin: 0;
+	padding: 0;
+	padding-left: 4px; /* pane padding */
+	width: 100%;
+	border: 1px solid #ccc;
+	display: block;
+	/* note: the panes get their height set with
+               javascript; see sizeTextAreas(). */
+	/* for now, set a height so things look nice
+               if the user has javascript disabled */
+	height: 400px;
+}
+
+#previewPane {
+	height: 90%;
+	padding: 5px;
+}
+
+#outputPane {
+	color: #fff;
+	display: none;
+}
+
+#syntaxPane {
+	display: none;
+}
+
+div.pane {
+	overflow: auto;
+}
+
+#inputPane {
+	font-family: Verdana;
+	padding: 5px;
+}
+
+#previewPane {
+	padding: 0;
+}
+
+#previewPane>* {
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+#previewPane>blockquote {
+	margin-left: 3em;
+}
+
+#previewPane>:first-child {
+	margin-top: 4px; /* pane padding */
+}
+
+#previewPane * {
+	
+}
+
+#previewPane code {
+	
+}
+
+#footer {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: left;
+	margin-top: 8px;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #666;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#convertTextControls {
+	position: absolute;
+	right: 5em;
+}
+
+#convertTextButton {
+	
+}
+
+#convertTextButton:hover {
+	
+}
+
+#convertTextSetting {
+	
+}
+
+#processingTime {
+}
+
+#Page {
+}
+#settings ul li {
+	  list-style: none;
+}
+
+#settings input#WordpressXmlrpcUrl {
+    width: 50%;
+}
+#settings input#WordpressXmlrpcUsername {
+    width: 300px;
+}
+#settings input#WordpressXmlrpcPassword {
+    width: 300px;
+}
+.errorMessage {
+    line-height: 1em;
+    color: red;
+}

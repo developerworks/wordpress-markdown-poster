@@ -1,0 +1,114 @@
+#previewPane {
+}
+#previewPane p {
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+#previewPane strong {
+  font-weight: bold;
+}
+#previewPane ol,
+#previewPane ul {
+  margin-left: 2em;
+  margin-bottom: 20px;
+}
+#previewPane ul ul,
+#previewPane ol ol,
+#previewPane ul ol,
+#previewPane ol ul {
+  margin-top: 10px;
+}
+#previewPane li {
+  margin-bottom: 10px;
+}
+#previewPane h1,
+#previewPane h2,
+#previewPane h3,
+#previewPane h4,
+#previewPane h5,
+#previewPane h6 {
+  font-weight: lighter;
+  text-transform: capitalize;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#previewPane img {
+  margin-bottom: 20px;
+}
+#previewPane h1 img,
+#previewPane h2 img,
+#previewPane h3 img,
+#previewPane h4 img,
+#previewPane h5 img,
+#previewPane h6 img,
+#previewPane p img {
+  margin-bottom: 0;
+}
+#previewPane pre {
+  margin-bottom: 20px;
+}
+#previewPane pre,
+#previewPane code {
+  font-family: monospace;
+}
+#previewPane pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 15px;
+}
+#previewPane h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#previewPane h2 {
+}
+#previewPane h3,
+#previewPane h4,
+#previewPane h5,
+#previewPane h6 {
+  border-bottom: none;
+}
+#previewPane * {
+  color: #657b83;
+}
+#previewPane {
+  background-color: #fdf6e3;
+}
+#previewPane h1,
+#previewPane h2,
+#previewPane h3,
+#previewPane h4,
+#previewPane h5,
+#previewPane h6 {
+  color: #586e75;
+  border-color: #657b83;
+}
+#previewPane a,
+#previewPane a:active,
+#previewPane a:visited {
+  color: #586e75;
+}
+#previewPane a:hover {
+  background-color: #eee8d5;
+}
+#previewPane pre {
+  color: #586e75;
+  background-color: #eee8d5;
+}
+#previewPane a,
+#previewPane a:active,
+#previewPane a:visited,
+#previewPane code.url {
+  color: #b58900;
+}
+#previewPane h1 {
+  color: #b58900;
+}
+#previewPane h2,
+#previewPane h3,
+#previewPane h4,
+#previewPane h5,
+#previewPane h6 {
+  color: #b58900;
+}

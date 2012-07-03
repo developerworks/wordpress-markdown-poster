@@ -1,0 +1,141 @@
+<html>
+<head>
+<title>Stylebot Options</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" charset="utf-8" href="themes/solarized/light.css" />
+<link rel="stylesheet" type="text/css" charset="utf-8" href="themes/solarized/options.css" />
+<link rel="stylesheet" type="text/css" charset="utf-8" href="themes/solarized/markdown.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<!-- 
+    Used to register javascript object namespaces
+-->
+<script type="text/javascript" src="js/namespace.js"></script>
+<!-- 
+    A xmlrpc javascript client
+    http://mimic-xmlrpc.sourceforge.net/
+-->
+<script type="text/javascript" src="js/mimic.js"></script>
+<!-- 
+    WordPress XmlRpc Javascript Api
+    https://github.com/developerworks/wordpress-xmlrpc-javascript-api
+-->
+<script type="text/javascript" src="js/wordpress.js"></script>
+
+<!-- 
+    UTF8 is not support in Base64 implemenation of mimic.js, use base64.js to overwrite that. 
+    The base64.js is used to encode images for uploading to wordpress
+-->
+<script type="text/javascript" src="js/base64.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
+
+<!-- 
+    A javascript port of Markdown
+    https://github.com/coreyti/showdown/
+-->
+<script type="text/javascript" src="js/showdown.js"></script>
+
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/showdown-gui.js"></script>
+  
+  
+</head>
+<body>
+  <div id="wrap">
+    <div id="tabMenu">
+      <h1>Wordpress Mardown</h1>
+      <ul class="menu">
+        <li><a href="#page">Page</a></li>
+        <li><a href="#settings">Settings</a></li>
+      </ul>
+    </div>
+    <p id="messages"></p>
+    <div id="options">
+      <div id="page">
+        <h2>New/Edit Page</h2>
+        <div id="leftContainer">
+          <div>
+        <div>Title:</div>
+            <input type="text" id="postTitle" style="width: 100%;">
+        <div>Markdown Text:</div>
+          <textarea id="inputPane" cols="80" rows="20" class="pane" style="padding: 5px;">
+Solarized
+=========
+
+## Precision colors for machines and people
+
+[![solarized dualmode](https://github.com/altercation/solarized/raw/master/img/solarized-yinyang.png)](#features)
+
+
+Solarized is a sixteen color palette (eight monotones, eight accent colors) 
+designed for use with terminal and gui applications. It has several [unique 
+properties](#features). I designed this colorscheme with both precise 
+[CIELAB](http://en.wikipedia.org/wiki/Lab_color_space) lightness relationships 
+and a refined set of hues based on fixed color wheel relationships. It has been 
+tested extensively in real world use on color calibrated displays (as well as 
+uncalibrated/intentionally miscalibrated displays) and in a variety of lighting 
+conditions.
+
+***See the [changelog] for what's new in the most recent release.***
+
+![solarized palette](https://github.com/altercation/solarized/raw/master/img/solarized-palette.png)\
+![solarized vim](https://github.com/altercation/solarized/raw/master/img/solarized-vim.png)\
+</textarea></div>        
+          
+        <div id="footer">
+          <button id="newPost" type="button">Publish</button>
+          <button id="convertTextButton" type="button" title="Convert text now">Convert</button>
+          <select id="convertTextSetting">
+            <option value="delayed">Background</option>
+            <option value="continuous">Every keydown</option>
+            <option value="manual">Manually</option>
+          </select> 
+          <select id="paneSetting">
+              <option value="previewPane">Preview</option>
+              <option value="outputPane">HTML Output</option>
+              <option value="syntaxPane">Markdown syntax guide</option>
+          </select>
+          <span>Processing time:</span> <span id="processingTime" title="Last processing time">0 ms</span>
+        </div>
+        </div>
+        <div id="rightContainer">
+          
+          <textarea id="outputPane" class="pane" cols="80" rows="20" readonly="readonly"></textarea>
+                
+          <div>Preview:</div>      
+          <div id="previewPane" class="pane">
+            <noscript>
+              <h2>You'll need to enable Javascript to use this tool.</h2>
+            </noscript>
+          </div>
+        </div>
+        
+      
+      </div>
+      
+      <div id="settings">
+        <h2>Wordpress XmlRpc Connection Settings</h2>
+        <ul>
+            <li>
+              <p>Wordpress XmlRpc Endpoint, Such as: http://www.example.com/xmlrpc.php </p>
+              <input type="text" id="WordpressXmlrpcUrl" title="Input the xmlrpc.php location of you wordpress installation" value="" />
+            </li>
+            <li>
+                Username:<br/>
+                <input type="text" id="WordpressXmlrpcUsername" title="Input you login name" value=""/>
+            </li>
+            <li>
+                Password:<br/>
+                <input type="text" id="WordpressXmlrpcPassword" title="Input you password for the login name"  value=""/>
+            </li>
+            <li>
+              <br/>
+              <button id="saveSettings" type="button" title="This will not save your information to disk, when you refresh page, you must re-input the settings above.">Save</button>
+            </li>
+        </ul>
+        <div id="savedMessage"></div>
+        
+      </div>
+    </div>
+  </div>
+</body>
+</html>
