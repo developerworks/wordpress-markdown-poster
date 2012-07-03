@@ -12,7 +12,7 @@ Screenshot:
 [screenshot]: https://raw.github.com/developerworks/wordpress-markdown-poster/master/screenshot.png
 [wordpress-xmlrpc-javascript-api]: https://github.com/developerworks/wordpress-xmlrpc-javascript-api
 [showdown]: https://github.com/coreyti/showdown
-[wordpress-markdown-poster]: https://github.com/developerworks/wordpress-markdown-poster
+[wordpress-markdown-poster]: http://developerworks.github.com/wordpress-markdown-poster/
 [markdowneditor]: https://github.com/icoloma/markdownEditor
 [jquery]: http://www.jquery.com
 [markdown]: http://daringfireball.net/projects/markdown/
