@@ -1,3 +1,0 @@
-[submodule "wwwroot"]
-	path = wwwroot
-	url = git://github.com/developerworks/wordpress-markdown-poster.git
