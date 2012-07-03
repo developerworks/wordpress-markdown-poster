@@ -13,6 +13,7 @@ Screenshot:
 [wordpress-xmlrpc-javascript-api]: https://github.com/developerworks/wordpress-xmlrpc-javascript-api
 [showdown]: https://github.com/coreyti/showdown
 [wordpress-markdown-poster]: https://github.com/developerworks/wordpress-markdown-poster
+[markdowneditor]: https://github.com/icoloma/markdownEditor
 [jquery]: http://www.jquery.com
 [markdown]: http://daringfireball.net/projects/markdown/
 
