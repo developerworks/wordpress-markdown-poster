@@ -13,7 +13,7 @@ Screenshot:
 
 
 
-[screenshot]: http://brettterpstra.com/markdownquicktagsicon.png
+[screenshot]: https://raw.github.com/developerworks/wordpress-markdown-poster/master/screenshot.png
 [wordpress-xmlrpc-javascript-api]: https://github.com/developerworks/wordpress-xmlrpc-javascript-api
 [showdown]: https://github.com/coreyti/showdown
 [wordpress-markdown-poster]: https://github.com/developerworks/wordpress-markdown-poster
